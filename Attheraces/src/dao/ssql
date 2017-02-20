@@ -1,0 +1,20 @@
+DROP TABLE ATT;
+CREATE TABLE ATT
+(
+data date,
+hora longvarchar,
+pista longvarchar,
+oddfav DECIMAL(10,2),
+oddfavtext longvarchar,
+namefav longvarchar,
+oddfav2 DECIMAL(10,2),
+oddfav2text longvarchar,
+namefav2 longvarchar,
+distancia longvarchar,
+dist DECIMAL(10,2),
+numCavalosText longvarchar,
+campeao longvarchar,
+link longvarchar,
+numeroCavalos int, 
+CONSTRAINT pk PRIMARY KEY (data,hora,pista)
+);
